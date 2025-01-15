@@ -574,6 +574,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "5a0b976f-d314-4fca-8ab0-732ea8a514fc",
+      "Root"
+    ],
+    [
+      "1c1519bd-c066-477c-a904-4026770e74a9",
+      "Microcontroller"
+    ]
+  ],
   "text_variables": {}
 }
