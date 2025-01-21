@@ -2,7 +2,7 @@
 [kbplacer_plugin_action.py:66]: Python version: '3.11.5 (main, Jul 16 2024, 08:01:06) [MSC v.1939 64 bit (AMD64)]'
 [kbplacer_plugin_action.py:67]: KiCad version: 8.0.4 with 4.2.0 msw (phoenix) wxWidgets 3.2.5
 [kbplacer_dialog.py:585]: Language: en
-[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\Win Win\\Documents\\GitHub\\keyboard_tkl\\keyboard_pcb\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "MX{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Back"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": -8.25, "y": 0.25, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "LED{}", "position_option": "Custom", "position": {"x": 0.0, "y": -4.5, "orientation": 0.0, "side": "Back"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 10.0}
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\Win Win\\Documents\\GitHub\\keyboard_tkl\\keyboard_pcb\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "MX{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Back"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": -8.25, "y": 0.25, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "LED{}", "position_option": "Custom", "position": {"x": 0.0, "y": -5.0, "orientation": 0.0, "side": "Back"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 10.0}
 [key_placer.py:361]: Set key 1U distance: 19050000/19050000
 [key_placer.py:123]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'row5', 'col16'}): ['MX87'], frozenset({'col15', 'row5'}): ['MX86'], frozenset({'col14', 'row5'}): ['MX85'], frozenset({'col13', 'row5'}): ['MX84'], frozenset({'row5', 'col12'}): ['MX83'], frozenset({'col11', 'row5'}): ['MX82'], frozenset({'col10', 'row5'}): ['MX81'], frozenset({'row5', 'col7'}): ['MX80'], frozenset({'col2', 'row5'}): ['MX79'], frozenset({'col1', 'row5'}): ['MX78'], frozenset({'row5', 'col0'}): ['MX77'], frozenset({'col15', 'row4'}): ['MX76'], frozenset({'row4', 'col13'}): ['MX75'], frozenset({'col11', 'row4'}): ['MX74'], frozenset({'col10', 'row4'}): ['MX73'], frozenset({'col9', 'row4'}): ['MX72'], frozenset({'row4', 'col8'}): ['MX71'], frozenset({'row4', 'col7'}): ['MX70'], frozenset({'col6', 'row4'}): ['MX69'], frozenset({'col5', 'row4'}): ['MX68'], frozenset({'row4', 'col4'}): ['MX67'], frozenset({'col3', 'row4'}): ['MX66'], frozenset({'col2', 'row4'}): ['MX65'], frozenset({'row4', 'col0'}): ['MX64'], frozenset({'col13', 'row3'}): ['MX63'], frozenset({'row3', 'col12'}): ['MX62'], frozenset({'col11', 'row3'}): ['MX61'], frozenset({'col10', 'row3'}): ['MX60'], frozenset({'col9', 'row3'}): ['MX59'], frozenset({'row3', 'col8'}): ['MX58'], frozenset({'row3', 'col7'}): ['MX57'], frozenset({'col6', 'row3'}): ['MX56'], frozenset({'col5', 'row3'}): ['MX55'], frozenset({'row3', 'col4'}): ['MX54'], frozenset({'col3', 'row3'}): ['MX53'], frozenset({'col2', 'row3'}): ['MX52'], frozenset({'row3', 'col0'}): ['MX51'], frozenset({'row2', 'col16'}): ['MX50'], frozenset({'row2', 'col15'}): ['MX49'], frozenset({'row2', 'col14'}): ['MX48'], frozenset({'row2', 'col13'}): ['MX47'], frozenset({'row2', 'col12'}): ['MX46'], frozenset({'col11', 'row2'}): ['MX45'], frozenset({'row2', 'col10'}): ['MX44'], frozenset({'row2', 'col9'}): ['MX43'], frozenset({'row2', 'col8'}): ['MX42'], frozenset({'row2', 'col7'}): ['MX41'], frozenset({'row2', 'col6'}): ['MX40'], frozenset({'col5', 'row2'}): ['MX39'], frozenset({'row2', 'col4'}): ['MX38'], frozenset({'row2', 'col3'}): ['MX37'], frozenset({'row2', 'col2'}): ['MX36'], frozenset({'col1', 'row2'}): ['MX35'], frozenset({'row2', 'col0'}): ['MX34'], frozenset({'row1', 'col16'}): ['MX33'], frozenset({'col15', 'row1'}): ['MX32'], frozenset({'col14', 'row1'}): ['MX31'], frozenset({'col13', 'row1'}): ['MX30'], frozenset({'col12', 'row1'}): ['MX29'], frozenset({'col11', 'row1'}): ['MX28'], frozenset({'col10', 'row1'}): ['MX27'], frozenset({'col9', 'row1'}): ['MX26'], frozenset({'col8', 'row1'}): ['MX25'], frozenset({'col7', 'row1'}): ['MX24'], frozenset({'col6', 'row1'}): ['MX23'], frozenset({'col5', 'row1'}): ['MX22'], frozenset({'row1', 'col4'}): ['MX21'], frozenset({'col3', 'row1'}): ['MX20'], frozenset({'col2', 'row1'}): ['MX19'], frozenset({'col1', 'row1'}): ['MX18'], frozenset({'col0', 'row1'}): ['MX17'], frozenset({'row0', 'col16'}): ['MX16'], frozenset({'col15', 'row0'}): ['MX15'], frozenset({'col14', 'row0'}): ['MX14'], frozenset({'col13', 'row0'}): ['MX13'], frozenset({'col12', 'row0'}): ['MX12'], frozenset({'col11', 'row0'}): ['MX11'], frozenset({'col10', 'row0'}): ['MX10'], frozenset({'col9', 'row0'}): ['MX9'], frozenset({'col8', 'row0'}): ['MX8'], frozenset({'col7', 'row0'}): ['MX7'], frozenset({'col6', 'row0'}): ['MX6'], frozenset({'col5', 'row0'}): ['MX5'], frozenset({'col4', 'row0'}): ['MX4'], frozenset({'col3', 'row0'}): ['MX3'], frozenset({'col2', 'row0'}): ['MX2'], frozenset({'col0', 'row0'}): ['MX1']})
 [key_placer.py:127]: Diodes by switch: {'MX34': ['D34'], 'MX43': ['D43'], 'MX42': ['D42'], 'MX36': ['D36'], 'MX40': ['D40'], 'MX31': ['D31'], 'MX30': ['D30'], 'MX29': ['D29'], 'MX25': ['D25'], 'MX21': ['D21'], 'MX20': ['D20'], 'MX17': ['D17'], 'MX13': ['D13'], 'MX12': ['D12'], 'MX11': ['D11'], 'MX16': ['D16'], 'MX10': ['D10'], 'MX33': ['D33'], 'MX38': ['D38'], 'MX26': ['D26'], 'MX19': ['D19'], 'MX37': ['D37'], 'MX18': ['D18'], 'MX41': ['D41'], 'MX27': ['D27'], 'MX14': ['D14'], 'MX4': ['D4'], 'MX22': ['D22'], 'MX7': ['D7'], 'MX39': ['D39'], 'MX3': ['D3'], 'MX1': ['D1'], 'MX8': ['D8'], 'MX35': ['D35'], 'MX2': ['D2'], 'MX6': ['D6'], 'MX23': ['D23'], 'MX44': ['D44'], 'MX24': ['D24'], 'MX32': ['D32'], 'MX28': ['D28'], 'MX15': ['D15'], 'MX5': ['D5'], 'MX9': ['D9'], 'MX62': ['D62'], 'MX65': ['D65'], 'MX55': ['D55'], 'MX59': ['D59'], 'MX53': ['D53'], 'MX67': ['D67'], 'MX66': ['D66'], 'MX61': ['D61'], 'MX60': ['D60'], 'MX56': ['D56'], 'MX58': ['D58'], 'MX57': ['D57'], 'MX51': ['D51'], 'MX64': ['D64'], 'MX45': ['D45'], 'MX69': ['D69'], 'MX87': ['D87'], 'MX46': ['D46'], 'MX48': ['D48'], 'MX49': ['D49'], 'MX47': ['D47'], 'MX80': ['D80'], 'MX79': ['D79'], 'MX85': ['D85'], 'MX50': ['D50'], 'MX74': ['D74'], 'MX84': ['D84'], 'MX76': ['D76'], 'MX82': ['D82'], 'MX83': ['D83'], 'MX81': ['D81'], 'MX68': ['D68'], 'MX77': ['D77'], 'MX72': ['D72'], 'MX63': ['D63'], 'MX86': ['D86'], 'MX71': ['D71'], 'MX52': ['D52'], 'MX78': ['D78'], 'MX70': ['D70'], 'MX75': ['D75'], 'MX73': ['D73'], 'MX54': ['D54']}
@@ -534,351 +534,351 @@
 [key_placer.py:774]: Placing additional elements for MX87
 [board_modifier.py:98]: Getting MX87 footprint position: (366712500, 142875000)
 [board_modifier.py:75]: Searching for optional LED87 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED87 footprint position: (366712500, 137875000)
 [key_placer.py:774]: Placing additional elements for MX86
 [board_modifier.py:98]: Getting MX86 footprint position: (347662500, 142875000)
 [board_modifier.py:75]: Searching for optional LED86 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED86 footprint position: (347662500, 137875000)
 [key_placer.py:774]: Placing additional elements for MX85
 [board_modifier.py:98]: Getting MX85 footprint position: (328612500, 142875000)
 [board_modifier.py:75]: Searching for optional LED85 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED85 footprint position: (328612500, 137875000)
 [key_placer.py:774]: Placing additional elements for MX84
 [board_modifier.py:98]: Getting MX84 footprint position: (302418750, 142875000)
 [board_modifier.py:75]: Searching for optional LED84 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED84 footprint position: (302418750, 137875000)
 [key_placer.py:774]: Placing additional elements for MX83
 [board_modifier.py:98]: Getting MX83 footprint position: (278606250, 142875000)
 [board_modifier.py:75]: Searching for optional LED83 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED83 footprint position: (278606250, 137875000)
 [key_placer.py:774]: Placing additional elements for MX82
 [board_modifier.py:98]: Getting MX82 footprint position: (254793750, 142875000)
 [board_modifier.py:75]: Searching for optional LED82 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED82 footprint position: (254793750, 137875000)
 [key_placer.py:774]: Placing additional elements for MX81
 [board_modifier.py:98]: Getting MX81 footprint position: (230981250, 142875000)
 [board_modifier.py:75]: Searching for optional LED81 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED81 footprint position: (230981250, 137875000)
 [key_placer.py:774]: Placing additional elements for MX80
 [board_modifier.py:98]: Getting MX80 footprint position: (159543750, 142875000)
 [board_modifier.py:75]: Searching for optional LED80 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED80 footprint position: (159543750, 137875000)
 [key_placer.py:774]: Placing additional elements for MX79
 [board_modifier.py:98]: Getting MX79 footprint position: (88106250, 142875000)
 [board_modifier.py:75]: Searching for optional LED79 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED79 footprint position: (88106250, 137875000)
 [key_placer.py:774]: Placing additional elements for MX78
 [board_modifier.py:98]: Getting MX78 footprint position: (64293750, 142875000)
 [board_modifier.py:75]: Searching for optional LED78 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED78 footprint position: (64293750, 137875000)
 [key_placer.py:774]: Placing additional elements for MX77
 [board_modifier.py:98]: Getting MX77 footprint position: (40481250, 142875000)
 [board_modifier.py:75]: Searching for optional LED77 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED77 footprint position: (40481250, 137875000)
 [key_placer.py:774]: Placing additional elements for MX76
 [board_modifier.py:98]: Getting MX76 footprint position: (347662500, 123825000)
 [board_modifier.py:75]: Searching for optional LED76 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED76 footprint position: (347662500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX75
 [board_modifier.py:98]: Getting MX75 footprint position: (288131250, 123825000)
 [board_modifier.py:75]: Searching for optional LED75 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED75 footprint position: (288131250, 118825000)
 [key_placer.py:774]: Placing additional elements for MX74
 [board_modifier.py:98]: Getting MX74 footprint position: (252412500, 123825000)
 [board_modifier.py:75]: Searching for optional LED74 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED74 footprint position: (252412500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX73
 [board_modifier.py:98]: Getting MX73 footprint position: (233362500, 123825000)
 [board_modifier.py:75]: Searching for optional LED73 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED73 footprint position: (233362500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX72
 [board_modifier.py:98]: Getting MX72 footprint position: (214312500, 123825000)
 [board_modifier.py:75]: Searching for optional LED72 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED72 footprint position: (214312500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX71
 [board_modifier.py:98]: Getting MX71 footprint position: (195262500, 123825000)
 [board_modifier.py:75]: Searching for optional LED71 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED71 footprint position: (195262500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX70
 [board_modifier.py:98]: Getting MX70 footprint position: (176212500, 123825000)
 [board_modifier.py:75]: Searching for optional LED70 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED70 footprint position: (176212500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX69
 [board_modifier.py:98]: Getting MX69 footprint position: (157162500, 123825000)
 [board_modifier.py:75]: Searching for optional LED69 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED69 footprint position: (157162500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX68
 [board_modifier.py:98]: Getting MX68 footprint position: (138112500, 123825000)
 [board_modifier.py:75]: Searching for optional LED68 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED68 footprint position: (138112500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX67
 [board_modifier.py:98]: Getting MX67 footprint position: (119062500, 123825000)
 [board_modifier.py:75]: Searching for optional LED67 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED67 footprint position: (119062500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX66
 [board_modifier.py:98]: Getting MX66 footprint position: (100012500, 123825000)
 [board_modifier.py:75]: Searching for optional LED66 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED66 footprint position: (100012500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX65
 [board_modifier.py:98]: Getting MX65 footprint position: (80962500, 123825000)
 [board_modifier.py:75]: Searching for optional LED65 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED65 footprint position: (80962500, 118825000)
 [key_placer.py:774]: Placing additional elements for MX64
 [board_modifier.py:98]: Getting MX64 footprint position: (50006250, 123825000)
 [board_modifier.py:75]: Searching for optional LED64 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED64 footprint position: (50006250, 118825000)
 [key_placer.py:774]: Placing additional elements for MX63
 [board_modifier.py:98]: Getting MX63 footprint position: (292893750, 104775000)
 [board_modifier.py:75]: Searching for optional LED63 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED63 footprint position: (292893750, 99775000)
 [key_placer.py:774]: Placing additional elements for MX62
 [board_modifier.py:98]: Getting MX62 footprint position: (261937500, 104775000)
 [board_modifier.py:75]: Searching for optional LED62 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED62 footprint position: (261937500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX61
 [board_modifier.py:98]: Getting MX61 footprint position: (242887500, 104775000)
 [board_modifier.py:75]: Searching for optional LED61 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED61 footprint position: (242887500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX60
 [board_modifier.py:98]: Getting MX60 footprint position: (223837500, 104775000)
 [board_modifier.py:75]: Searching for optional LED60 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED60 footprint position: (223837500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX59
 [board_modifier.py:98]: Getting MX59 footprint position: (204787500, 104775000)
 [board_modifier.py:75]: Searching for optional LED59 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED59 footprint position: (204787500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX58
 [board_modifier.py:98]: Getting MX58 footprint position: (185737500, 104775000)
 [board_modifier.py:75]: Searching for optional LED58 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED58 footprint position: (185737500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX57
 [board_modifier.py:98]: Getting MX57 footprint position: (166687500, 104775000)
 [board_modifier.py:75]: Searching for optional LED57 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED57 footprint position: (166687500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX56
 [board_modifier.py:98]: Getting MX56 footprint position: (147637500, 104775000)
 [board_modifier.py:75]: Searching for optional LED56 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED56 footprint position: (147637500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX55
 [board_modifier.py:98]: Getting MX55 footprint position: (128587500, 104775000)
 [board_modifier.py:75]: Searching for optional LED55 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED55 footprint position: (128587500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX54
 [board_modifier.py:98]: Getting MX54 footprint position: (109537500, 104775000)
 [board_modifier.py:75]: Searching for optional LED54 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED54 footprint position: (109537500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX53
 [board_modifier.py:98]: Getting MX53 footprint position: (90487500, 104775000)
 [board_modifier.py:75]: Searching for optional LED53 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED53 footprint position: (90487500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX52
 [board_modifier.py:98]: Getting MX52 footprint position: (71437500, 104775000)
 [board_modifier.py:75]: Searching for optional LED52 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED52 footprint position: (71437500, 99775000)
 [key_placer.py:774]: Placing additional elements for MX51
 [board_modifier.py:98]: Getting MX51 footprint position: (45243750, 104775000)
 [board_modifier.py:75]: Searching for optional LED51 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED51 footprint position: (45243750, 99775000)
 [key_placer.py:774]: Placing additional elements for MX50
 [board_modifier.py:98]: Getting MX50 footprint position: (366712500, 85725000)
 [board_modifier.py:75]: Searching for optional LED50 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED50 footprint position: (366712500, 80725000)
 [key_placer.py:774]: Placing additional elements for MX49
 [board_modifier.py:98]: Getting MX49 footprint position: (347662500, 85725000)
 [board_modifier.py:75]: Searching for optional LED49 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED49 footprint position: (347662500, 80725000)
 [key_placer.py:774]: Placing additional elements for MX48
 [board_modifier.py:98]: Getting MX48 footprint position: (328612500, 85725000)
 [board_modifier.py:75]: Searching for optional LED48 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED48 footprint position: (328612500, 80725000)
 [key_placer.py:774]: Placing additional elements for MX47
 [board_modifier.py:98]: Getting MX47 footprint position: (300037500, 85725000)
 [board_modifier.py:75]: Searching for optional LED47 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED47 footprint position: (300037500, 80725000)
 [key_placer.py:774]: Placing additional elements for MX46
 [board_modifier.py:98]: Getting MX46 footprint position: (276225000, 85725000)
 [board_modifier.py:75]: Searching for optional LED46 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED46 footprint position: (276225000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX45
 [board_modifier.py:98]: Getting MX45 footprint position: (257175000, 85725000)
 [board_modifier.py:75]: Searching for optional LED45 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED45 footprint position: (257175000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX44
 [board_modifier.py:98]: Getting MX44 footprint position: (238125000, 85725000)
 [board_modifier.py:75]: Searching for optional LED44 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED44 footprint position: (238125000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX43
 [board_modifier.py:98]: Getting MX43 footprint position: (219075000, 85725000)
 [board_modifier.py:75]: Searching for optional LED43 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED43 footprint position: (219075000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX42
 [board_modifier.py:98]: Getting MX42 footprint position: (200025000, 85725000)
 [board_modifier.py:75]: Searching for optional LED42 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED42 footprint position: (200025000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX41
 [board_modifier.py:98]: Getting MX41 footprint position: (180975000, 85725000)
 [board_modifier.py:75]: Searching for optional LED41 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED41 footprint position: (180975000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX40
 [board_modifier.py:98]: Getting MX40 footprint position: (161925000, 85725000)
 [board_modifier.py:75]: Searching for optional LED40 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED40 footprint position: (161925000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX39
 [board_modifier.py:98]: Getting MX39 footprint position: (142875000, 85725000)
 [board_modifier.py:75]: Searching for optional LED39 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED39 footprint position: (142875000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX38
 [board_modifier.py:98]: Getting MX38 footprint position: (123825000, 85725000)
 [board_modifier.py:75]: Searching for optional LED38 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED38 footprint position: (123825000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX37
 [board_modifier.py:98]: Getting MX37 footprint position: (104775000, 85725000)
 [board_modifier.py:75]: Searching for optional LED37 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED37 footprint position: (104775000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX36
 [board_modifier.py:98]: Getting MX36 footprint position: (85725000, 85725000)
 [board_modifier.py:75]: Searching for optional LED36 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED36 footprint position: (85725000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX35
 [board_modifier.py:98]: Getting MX35 footprint position: (66675000, 85725000)
 [board_modifier.py:75]: Searching for optional LED35 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED35 footprint position: (66675000, 80725000)
 [key_placer.py:774]: Placing additional elements for MX34
 [board_modifier.py:98]: Getting MX34 footprint position: (42862500, 85725000)
 [board_modifier.py:75]: Searching for optional LED34 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED34 footprint position: (42862500, 80725000)
 [key_placer.py:774]: Placing additional elements for MX33
 [board_modifier.py:98]: Getting MX33 footprint position: (366712500, 66675000)
 [board_modifier.py:75]: Searching for optional LED33 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED33 footprint position: (366712500, 61675000)
 [key_placer.py:774]: Placing additional elements for MX32
 [board_modifier.py:98]: Getting MX32 footprint position: (347662500, 66675000)
 [board_modifier.py:75]: Searching for optional LED32 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED32 footprint position: (347662500, 61675000)
 [key_placer.py:774]: Placing additional elements for MX31
 [board_modifier.py:98]: Getting MX31 footprint position: (328612500, 66675000)
 [board_modifier.py:75]: Searching for optional LED31 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED31 footprint position: (328612500, 61675000)
 [key_placer.py:774]: Placing additional elements for MX30
 [board_modifier.py:98]: Getting MX30 footprint position: (295275000, 66675000)
 [board_modifier.py:75]: Searching for optional LED30 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED30 footprint position: (295275000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX29
 [board_modifier.py:98]: Getting MX29 footprint position: (266700000, 66675000)
 [board_modifier.py:75]: Searching for optional LED29 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED29 footprint position: (266700000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX28
 [board_modifier.py:98]: Getting MX28 footprint position: (247650000, 66675000)
 [board_modifier.py:75]: Searching for optional LED28 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED28 footprint position: (247650000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX27
 [board_modifier.py:98]: Getting MX27 footprint position: (228600000, 66675000)
 [board_modifier.py:75]: Searching for optional LED27 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED27 footprint position: (228600000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX26
 [board_modifier.py:98]: Getting MX26 footprint position: (209550000, 66675000)
 [board_modifier.py:75]: Searching for optional LED26 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED26 footprint position: (209550000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX25
 [board_modifier.py:98]: Getting MX25 footprint position: (190500000, 66675000)
 [board_modifier.py:75]: Searching for optional LED25 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED25 footprint position: (190500000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX24
 [board_modifier.py:98]: Getting MX24 footprint position: (171450000, 66675000)
 [board_modifier.py:75]: Searching for optional LED24 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED24 footprint position: (171450000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX23
 [board_modifier.py:98]: Getting MX23 footprint position: (152400000, 66675000)
 [board_modifier.py:75]: Searching for optional LED23 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED23 footprint position: (152400000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX22
 [board_modifier.py:98]: Getting MX22 footprint position: (133350000, 66675000)
 [board_modifier.py:75]: Searching for optional LED22 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED22 footprint position: (133350000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX21
 [board_modifier.py:98]: Getting MX21 footprint position: (114300000, 66675000)
 [board_modifier.py:75]: Searching for optional LED21 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED21 footprint position: (114300000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX20
 [board_modifier.py:98]: Getting MX20 footprint position: (95250000, 66675000)
 [board_modifier.py:75]: Searching for optional LED20 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED20 footprint position: (95250000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX19
 [board_modifier.py:98]: Getting MX19 footprint position: (76200000, 66675000)
 [board_modifier.py:75]: Searching for optional LED19 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED19 footprint position: (76200000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX18
 [board_modifier.py:98]: Getting MX18 footprint position: (57150000, 66675000)
 [board_modifier.py:75]: Searching for optional LED18 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED18 footprint position: (57150000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX17
 [board_modifier.py:98]: Getting MX17 footprint position: (38100000, 66675000)
 [board_modifier.py:75]: Searching for optional LED17 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED17 footprint position: (38100000, 61675000)
 [key_placer.py:774]: Placing additional elements for MX16
 [board_modifier.py:98]: Getting MX16 footprint position: (366712500, 38100000)
 [board_modifier.py:75]: Searching for optional LED16 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED16 footprint position: (366712500, 33100000)
 [key_placer.py:774]: Placing additional elements for MX15
 [board_modifier.py:98]: Getting MX15 footprint position: (347662500, 38100000)
 [board_modifier.py:75]: Searching for optional LED15 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED15 footprint position: (347662500, 33100000)
 [key_placer.py:774]: Placing additional elements for MX14
 [board_modifier.py:98]: Getting MX14 footprint position: (328612500, 38100000)
 [board_modifier.py:75]: Searching for optional LED14 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED14 footprint position: (328612500, 33100000)
 [key_placer.py:774]: Placing additional elements for MX13
 [board_modifier.py:98]: Getting MX13 footprint position: (304800000, 38100000)
 [board_modifier.py:75]: Searching for optional LED13 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED13 footprint position: (304800000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX12
 [board_modifier.py:98]: Getting MX12 footprint position: (285750000, 38100000)
 [board_modifier.py:75]: Searching for optional LED12 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED12 footprint position: (285750000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX11
 [board_modifier.py:98]: Getting MX11 footprint position: (266700000, 38100000)
 [board_modifier.py:75]: Searching for optional LED11 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED11 footprint position: (266700000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX10
 [board_modifier.py:98]: Getting MX10 footprint position: (247650000, 38100000)
 [board_modifier.py:75]: Searching for optional LED10 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED10 footprint position: (247650000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX9
 [board_modifier.py:98]: Getting MX9 footprint position: (219075000, 38100000)
 [board_modifier.py:75]: Searching for optional LED9 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED9 footprint position: (219075000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX8
 [board_modifier.py:98]: Getting MX8 footprint position: (200025000, 38100000)
 [board_modifier.py:75]: Searching for optional LED8 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED8 footprint position: (200025000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX7
 [board_modifier.py:98]: Getting MX7 footprint position: (180975000, 38100000)
 [board_modifier.py:75]: Searching for optional LED7 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED7 footprint position: (180975000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX6
 [board_modifier.py:98]: Getting MX6 footprint position: (161925000, 38100000)
 [board_modifier.py:75]: Searching for optional LED6 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED6 footprint position: (161925000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX5
 [board_modifier.py:98]: Getting MX5 footprint position: (133350000, 38100000)
 [board_modifier.py:75]: Searching for optional LED5 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED5 footprint position: (133350000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX4
 [board_modifier.py:98]: Getting MX4 footprint position: (114300000, 38100000)
 [board_modifier.py:75]: Searching for optional LED4 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED4 footprint position: (114300000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX3
 [board_modifier.py:98]: Getting MX3 footprint position: (95250000, 38100000)
 [board_modifier.py:75]: Searching for optional LED3 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED3 footprint position: (95250000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX2
 [board_modifier.py:98]: Getting MX2 footprint position: (76200000, 38100000)
 [board_modifier.py:75]: Searching for optional LED2 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:80]: Footprint not found
+[board_modifier.py:85]: Setting LED2 footprint position: (76200000, 33100000)
 [key_placer.py:774]: Placing additional elements for MX1
 [board_modifier.py:98]: Getting MX1 footprint position: (38100000, 38100000)
 [board_modifier.py:75]: Searching for optional LED1 footprint in C:\Users\Win Win\Documents\GitHub\keyboard_tkl\keyboard_pcb\keyboard_pcb.kicad_pcb
-[board_modifier.py:85]: Setting LED1 footprint position: (38100000, 33600000)
+[board_modifier.py:85]: Setting LED1 footprint position: (38100000, 33100000)
 [key_placer.py:423]: Routing MX87 with D87
 [key_placer.py:425]: Using internal autorouter method
 [board_modifier.py:522]: Routing at B.Cu layer
