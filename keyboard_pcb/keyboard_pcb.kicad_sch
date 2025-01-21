@@ -44,6 +44,44 @@
 		)
 	)
 	(sheet
+		(at 121.92 90.17)
+		(size 72.39 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4ba2381-2685-4e98-89c8-3e709b9e4e24")
+		(property "Sheetname" "LED"
+			(at 121.92 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED.kicad_sch"
+			(at 121.92 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "keyboard_pcb"
+				(path "/5a0b976f-d314-4fca-8ab0-732ea8a514fc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 100.33 24.13)
 		(size 91.44 40.64)
 		(fields_autoplaced yes)
