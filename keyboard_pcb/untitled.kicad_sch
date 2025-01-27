@@ -5139,6 +5139,17 @@
 		)
 		(uuid "4c987cc2-f1f6-43b4-b058-35c9318c07bf")
 	)
+	(label "VREG_IN"
+		(at 237.49 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59efd651-1a28-4110-acc3-71f29281266d")
+	)
 	(label "QSPI_SD2"
 		(at 191.77 81.28 0)
 		(fields_autoplaced yes)
@@ -5205,7 +5216,7 @@
 		)
 		(uuid "9b98f4e0-5609-4e10-8ee5-6b0388aa38b4")
 	)
-	(label "VREG_OUT"
+	(label "VREG_VOUT"
 		(at 55.88 193.04 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5237,6 +5248,17 @@
 			(justify left bottom)
 		)
 		(uuid "a236dff1-2295-4f83-a935-51d99bc8a28a")
+	)
+	(label "VREG_VOUT"
+		(at 222.25 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a68d1dda-3df0-4c46-bae0-80a7df43826b")
 	)
 	(label "Run"
 		(at 17.78 71.12 0)
@@ -5526,6 +5548,28 @@
 		(uuid "490ea962-ca5f-42dc-bead-142b84c2a3a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 269.9875 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED"
+		(shape input)
+		(at 270.51 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67ce10ff-fe55-438f-8442-34ca3a3fe334")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9423 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +6140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 46.99 110.998 90)
 			(effects
 				(font
@@ -6297,7 +6341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 101.6 36.068 90)
 			(effects
 				(font
@@ -6432,7 +6476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 40.64 148.59 0)
 			(effects
 				(font
@@ -7369,7 +7413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 25.4 109.22 0)
 			(effects
 				(font
@@ -7573,7 +7617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 191.77 62.738 90)
 			(effects
 				(font
@@ -7706,7 +7750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 191.77 61.722 90)
 			(effects
 				(font
@@ -8615,7 +8659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 21.082 64.77 90)
 			(effects
 				(font
@@ -8815,7 +8859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -9023,7 +9067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 50.8 42.418 90)
 			(effects
 				(font
@@ -9209,7 +9253,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c5fba3d9-1a54-4861-8da6-ba72d73c3040")
 		(property "Reference" "R8"
 			(at 54.61 142.24 90)
@@ -9227,7 +9270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 54.61 150.368 90)
 			(effects
 				(font
@@ -9294,7 +9337,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 101.6 33.528 90)
 			(effects
 				(font
@@ -9429,7 +9472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 86.36 41.91 0)
 			(effects
 				(font
@@ -9542,7 +9585,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -9788,6 +9831,74 @@
 			(project ""
 				(path "/5a0b976f-d314-4fca-8ab0-732ea8a514fc/1c1519bd-c066-477c-a904-4026770e74a9"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 266.7 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4010ce4-cd3c-4575-a5d0-32d7002668ed")
+		(property "Reference" "R9"
+			(at 266.7 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 266.7 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 266.7 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66ae4b57-fd83-43a3-ab0e-43c34f37f0ab")
+		)
+		(pin "2"
+			(uuid "c0abe861-4184-4ce3-940f-d365db569fe4")
+		)
+		(instances
+			(project ""
+				(path "/5a0b976f-d314-4fca-8ab0-732ea8a514fc/1c1519bd-c066-477c-a904-4026770e74a9"
+					(reference "R9")
 					(unit 1)
 				)
 			)
