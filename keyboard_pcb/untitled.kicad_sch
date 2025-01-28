@@ -4749,6 +4749,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 95.25) (xy 146.05 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc787da-ecbc-42f0-8506-028f28c16d6d")
+	)
+	(wire
+		(pts
 			(xy 41.91 22.86) (xy 64.77 22.86)
 		)
 		(stroke
@@ -4756,6 +4766,16 @@
 			(type default)
 		)
 		(uuid "7d76cf64-fb0b-4479-a59e-1de04a4af14b")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9fbd08-ace0-452a-ba29-03d5bde18fba")
 	)
 	(wire
 		(pts
@@ -4826,6 +4846,16 @@
 			(type default)
 		)
 		(uuid "85b5ba6f-5cfe-4412-8fab-e9ae3622b86a")
+	)
+	(wire
+		(pts
+			(xy 139.7 85.09) (xy 146.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c5fa71-1796-4e75-9f43-7c351197e746")
 	)
 	(wire
 		(pts
@@ -5049,6 +5079,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 53.34) (xy 201.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47523c9-8d72-4bfc-b891-123f9aa6c77a")
+	)
+	(wire
+		(pts
 			(xy 44.45 148.59) (xy 50.8 148.59)
 		)
 		(stroke
@@ -5089,7 +5129,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 90.17) (xy 146.05 90.17)
+			(xy 125.73 90.17) (xy 146.05 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5565,6 +5605,16 @@
 		)
 		(uuid "1d58e167-1fed-4432-a1d2-d5a4669570de")
 	)
+	(label "Run"
+		(at 195.58 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20e2a99c-76e8-43cb-9a91-36c6ce591135")
+	)
 	(label "QSPI_SCLK"
 		(at 191.77 86.36 0)
 		(effects
@@ -5624,6 +5674,16 @@
 			(justify right bottom)
 		)
 		(uuid "5e3b5d9c-7cf5-4a59-ac1b-f8b64dbf5b0c")
+	)
+	(label "Run"
+		(at 139.7 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b1a8a72-3771-49db-8406-10be9171df7c")
 	)
 	(label "QSPI_SD1"
 		(at 191.77 78.74 0)
@@ -5765,6 +5825,16 @@
 		)
 		(uuid "cb8838b8-c359-44f7-ae6f-a29250cbe8ae")
 	)
+	(label "SWD"
+		(at 133.35 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfd0b75b-84cf-4143-bb02-3b6c27f568f9")
+	)
 	(label "XOUT"
 		(at 64.77 40.64 180)
 		(effects
@@ -5784,6 +5854,16 @@
 			(justify left bottom)
 		)
 		(uuid "e70b8321-f58d-460e-a9d5-a7834bce009a")
+	)
+	(label "SWCLK"
+		(at 133.35 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef3ca9ba-d850-42a2-8ea7-70dfaad6a0bf")
 	)
 	(label "XIN"
 		(at 64.77 22.86 180)
@@ -5903,28 +5983,6 @@
 			)
 		)
 	)
-	(global_label "SWDIO"
-		(shape input)
-		(at 146.05 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "36338bc5-cd44-440e-a64c-c4df266d1494")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.7707 92.6306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col1"
 		(shape input)
 		(at 262.89 71.12 0)
@@ -6009,50 +6067,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SWCLK"
-		(shape input)
-		(at 146.05 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4c1e18ee-2ccf-4f07-b9b2-bccb8191af5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.4079 95.1706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESET"
-		(shape input)
-		(at 146.05 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "582efa55-57c6-44a7-bf81-8bbf89c7e5f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.8917 85.0106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7311,7 +7325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Components:L60 Outline"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 135.89 128.27 0)
 			(effects
 				(font
@@ -7792,7 +7806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Components:L60 Outline"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 116.84 128.27 0)
 			(effects
 				(font
@@ -10085,7 +10099,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 90.17 0)
+		(at 125.73 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10093,7 +10107,7 @@
 		(dnp no)
 		(uuid "ac36ccb4-383a-4765-a66e-9c192e0bbc16")
 		(property "Reference" "#PWR040"
-			(at 134.62 96.52 0)
+			(at 125.73 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,7 +10116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 93.98 0)
+			(at 125.73 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,7 +10124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 90.17 0)
+			(at 125.73 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,7 +10133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 90.17 0)
+			(at 125.73 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,7 +10142,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 90.17 0)
+			(at 125.73 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +10528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Components:L60 Outline"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 135.89 116.84 0)
 			(effects
 				(font
@@ -11106,7 +11120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Components:L60 Outline"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 116.84 116.84 0)
 			(effects
 				(font
