@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5a0b976f-d314-4fca-8ab0-732ea8a514fc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 142.24 85.09)
+		(size 80.01 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "012e4c56-fe7c-4f1b-9cf8-d2fb4122423f")
+		(property "Sheetname" "LED Debounce Capacitor"
+			(at 142.24 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "capacitor.kicad_sch"
+			(at 142.24 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "keyboard_pcb"
+				(path "/5a0b976f-d314-4fca-8ab0-732ea8a514fc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 21.59)
+		(size 57.15 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c1519bd-c066-477c-a904-4026770e74a9")
+		(property "Sheetname" "Microcontroller"
+			(at 21.59 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 21.59 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "keyboard_pcb"
+				(path "/5a0b976f-d314-4fca-8ab0-732ea8a514fc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 82.55)
+		(size 72.39 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4ba2381-2685-4e98-89c8-3e709b9e4e24")
+		(property "Sheetname" "LED"
+			(at 38.1 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED.kicad_sch"
+			(at 38.1 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "keyboard_pcb"
+				(path "/5a0b976f-d314-4fca-8ab0-732ea8a514fc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 24.13)
+		(size 91.44 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8e39055-a26b-42b9-b581-42b61b3ed0e5")
+		(property "Sheetname" "Matrix"
+			(at 100.33 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "matrix.kicad_sch"
+			(at 100.33 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "keyboard_pcb"
+				(path "/5a0b976f-d314-4fca-8ab0-732ea8a514fc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
